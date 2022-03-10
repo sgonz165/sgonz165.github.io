@@ -53,14 +53,14 @@ table {
 
 
 
-/* ---------- Hello, my name is Samantha Gonzalez and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing Systems March 2022 ------------ */
+/* ---------- Hello, my name is YOUR NAME GOES HERE and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
 
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/2x/background.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
 	
@@ -71,9 +71,10 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: none;/*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 4px white;
+	;
 }
 
    
@@ -83,17 +84,20 @@ html, body {
 	text-align: center;
 }
 
-h1 {
+h1 {font-family: noh-sori,sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
+	;
 }
 
-h2 {
-	font-family: sculpin, sans-serif;
-	font-weight: 700;
-	font-style: normal; /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+h2 { font-family: noh-sori,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -101,39 +105,73 @@ h2 {
     margin: 0px auto 25px auto;
 }
 
-p {
+p { font-family: noh-sori,sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		
 	font-size: 1.2em;
     line-height: 1.6;
+	margin: 0px auto 10px auto;
     color: #fff;
+	border-color: darkgreen;
 }
-    
-nav{
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: medium;
-	width: 400px ;
-	margin: auto;
-	border: dashed turquoise;
-	border-width:3px 0 ;
-	text-align: center;
-	margin-top: 2em;
-}    
-
-nav li{
+nav li {
 	display: inline;
 }
-
 nav a{
 	display: inline-block;
 	padding: 10px;
 }
-
 a{
-	color:blueviolet;
-	text-decoration: none;
-	font-weight: bold;
+	color: darkgreen;
 }
-a:hover{
-	color: black;
-	background: palevioletred;
+nav {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0;
+	font-family: noh-sori,sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
+nav ul { 
+	list-style: none;
+	text-align: center;
+	letter-spacing: 2px;
+}
+nav ul li a {
+	display: inline;
+	padding: 15px;
+	text-decoration: underline;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0 10px;
+}
+nav ul li a, 
+nav ul li a:after,
+nav ul li a:before { transition: all .5s;
+}
+nav ul li a:hover {
+	color: green;
+ }
+ nav ul li a { 
+	 position: relative;
+ }
+
+nav ul li a:hover:after {
+	width: 100%;
+}
+  
+nav ul li{ 
+	margin: 0 auto;
+	text-align: right center left;
+	
+}
+nav ul {
+	display: inline;
+}
+
+
+
+
+
