@@ -62,25 +62,23 @@ html, body {
   margin: 0;
   background: url(images/images/background-Recovered.jpg)
 	center center fixed no-repeat;
-	background-size: auto;
-	
-	
-}
+	background-size:cover;
+	}
 
 .center {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: url(images/images/background-Recovered.jpg);/*this uses opacity of 75% for the background color*/
+ 	background: none;/*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px white;
+	border: none;
 	;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: none;
 	text-align: center;
 }
 
@@ -142,7 +140,7 @@ nav ul li a {
 	display: inline;
 	padding: 15px;
 	text-decoration: underline;
-	color: #fff;
+	color: white;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin: 0 10px;
