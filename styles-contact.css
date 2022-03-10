@@ -71,7 +71,7 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: none;/*this uses opacity of 75% for the background color*/
+ 	background: url(images/images/background-Recovered.jpg);/*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: 4px white;
 	;
