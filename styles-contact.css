@@ -63,6 +63,7 @@ html, body {
   background: url(images/images/background-Recovered2.jpg)
 	center center fixed no-repeat;
 	background-size:cover;
+	background-position: center;
 	}
 
 .center {
