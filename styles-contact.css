@@ -62,7 +62,7 @@ html, body {
   margin: 0;
   background: url(images/images/background-Recovered.jpg)
 	center center fixed no-repeat;
-	background-size: cover;
+	background-size: auto;
 	
 	
 }
