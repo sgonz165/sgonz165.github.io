@@ -32,6 +32,7 @@ ul{
 .personal-info ul li {
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 1em;
 }
 .personal-info ul li label{
 	flex: 0 0 8em;
