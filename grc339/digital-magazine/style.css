@@ -1,0 +1,193 @@
+/*CSS document*/
+
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+div.container {
+  max-width: 35rem;
+  margin: auto;
+}
+
+h1 {
+  width: 6.5rem;
+  margin: 1rem 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  margin: 1rem 0.5rem 1rem;
+}
+nav ul li {
+  font-family: sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  list-style-type: none;
+  margin-bottom: 0.25rem;
+}
+
+nav ul li a {
+  color: rgb(97, 119, 147);
+}
+
+h2 {
+  font-family: serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgb(97, 119, 147);
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2rem;
+}
+article h2 {
+  margin: 2rem 0rem 0.5rem 0.5rem;
+}
+
+section.secondaryteaser h2 {
+  font-size: 1.75rem;
+}
+
+section.tertiaryteaser h2 {
+  font-size: 1.2rem;
+  border-top: 1px solid rgb(97, 119, 147);
+  padding-top: 0.5rem;
+}
+
+footer {
+  background-color: rgb(97, 119, 147);
+  padding: 0.25rem;
+}
+footer p {
+  color: rgb(250, 250, 250);
+  padding-top: 0.5rem;
+}
+figcaption {
+  margin: 0.25rem 0rem 1rem 0.5rem;
+  font-family: sans-serif;
+  font-style: italic;
+  color: rgb(85, 85, 85);
+}
+
+aside {
+  background-color: rgb(204, 208, 251);
+  padding: 0.5rem;
+}
+aside section.secondaryteaser h2 {
+  font-size: 1.2rem;
+}
+aside section.secondaryteaser figure {
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 35em) {
+  h1,
+  h2,
+  figcaption,
+  p,
+  nav {
+    margin-left: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+}
