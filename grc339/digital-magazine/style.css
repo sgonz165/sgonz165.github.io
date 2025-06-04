@@ -18,10 +18,11 @@ main.photogallery {
   overflow: hidden;
   padding-bottom: calc(124% + 4em);
   grid-column: 1/3;
+  display: block;
 }
 main.photogallery figure {
   margin-top: 1em;
-  width: calc(100%-2em);
+  width: 100%;
   position: absolute;
   opacity: 0;
   transition: 0.5s;
@@ -61,9 +62,13 @@ body {
 }
 
 h1 {
-  width: 15rem;
+    
+  width: 18rem;
   margin: 1rem 0.5rem 2rem;
 }
+img {  
+  width: 100%;  
+  }  
 
 a {
   text-decoration: none;
@@ -150,10 +155,12 @@ aside section.secondaryteaser figure {
 }
 main.newsletter {
   margin: 1em 0em 1.5em;
+
 }
 
 .newsletter figure {
   background-color: rgb(255, 255, 242);
+
 }
 .newsletter ul {
   list-style-type: none;
@@ -252,8 +259,8 @@ button:hover {
     margin-right: 1rem;
   }
 
-  @media only screen and (min-width: 60em) {
-    div.home-container {
+  @media only screen and (min-width: 60em){ 
+    div.home-container,div.container {
       max-width: 80em;
       padding: 0 1em;
       display: grid;
@@ -261,13 +268,6 @@ button:hover {
       grid-gap: 1em;
     }
 
-    div.container {
-      max-width: 60em;
-      padding: 0 1em;
-      display: grid;
-      grid-template-columns: 3fr 1fr;
-      grid-gap: 1em;
-    }
 
     header,
     footer {
@@ -296,6 +296,7 @@ button:hover {
       padding: 1em;
     }
     div.container aside img {
+
       border: 5px solid rgb(244, 243, 238);
     }
 
@@ -330,6 +331,7 @@ button:hover {
 
     section.secondaryteaser {
       display: flex;
+      margin: 0;
     }
 
     section.secondaryteaser a {
@@ -359,6 +361,7 @@ button:hover {
 
   nav.photogallery {
     padding: 0.5rem;
+    margin-top: 0rem;
   }
   .personal-info ul li {
     padding: 0;
@@ -366,5 +369,53 @@ button:hover {
   .choose ul li {
     flex: 0 0 8em;
   }
+  main.photogallery figure {
+   display: block;
+  }
+
+
+
 }
 
+@media screen and (prefers-color-scheme: dark){
+
+  body{
+    background-color: rgb(16,16,16)
+  }
+  nav ul li a {
+    color: rgb(255,255,242);
+  }
+  p {
+    color: rgb(255, 255, 242);
+  }
+  h2{
+    color: rgb(255,255,242);
+  }
+  h1{
+  background-image: url("logo_rebound_dark.svg");  
+  background-repeat: no-repeat;  
+  background-size: contain;  
+
+  }
+  h1 img {  
+    opacity: 0;  
+    } 
+    aside{
+      background-color: rgb(43, 43, 43);
+    }
+    
+    aside section.tertiaryteaser h2 {
+      color:rgb(233, 90, 41);
+    }
+
+  figcaption{
+    color:rgb(235, 133, 99);
+  }
+  .personal-info ul li label {
+    color:rgb(255,255,242);
+  }
+  .choose ul li label {
+    color: rgb(255, 255, 242);
+  }
+
+}
