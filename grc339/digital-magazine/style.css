@@ -113,6 +113,10 @@ p {
 }
 article h2 {
   margin: 2rem 0rem 0.5rem 0.5rem;
+
+}
+section.mainteaser{
+  margin-top: 0em;
 }
 
 section.secondaryteaser h2 {
@@ -146,6 +150,7 @@ figcaption {
 aside {
   background-color: rgb(236, 226, 208);
   padding: 0.5rem;
+ 
 }
 aside section.secondaryteaser h2 {
   font-size: 1.2rem;
@@ -262,7 +267,7 @@ button:hover {
   @media only screen and (min-width: 60em){ 
     div.home-container,div.container {
       max-width: 80em;
-      padding: 0 1em;
+      padding: 0 4em;
       display: grid;
       grid-template-columns: 3fr 1fr;
       grid-gap: 1em;
@@ -372,6 +377,12 @@ button:hover {
   main.photogallery figure {
    display: block;
   }
+  section.tertiaryteaser{
+    margin-top: 0;
+  }
+  section.tertiaryteaser a h2{
+    margin-top: 0;
+  }
 
 
 
@@ -417,5 +428,6 @@ button:hover {
   .choose ul li label {
     color: rgb(255, 255, 242);
   }
+
 
 }
